@@ -1,4 +1,4 @@
-# Spnw Formulae
+# Homebrew Formulae
 
 ## How do I install these formulae?
 
