@@ -6,11 +6,11 @@ class MpcBar < Formula
   license "MIT"
   head "https://github.com/spnw/mpc-bar.git", branch: "main"
 
+  depends_on "libmpdclient"
+
   def install
     system "make", "BINDIR=#{bin}", "install"
   end
-
-  depends_on "libmpdclient"
 
   service do
     run opt_bin/"mpc-bar"
