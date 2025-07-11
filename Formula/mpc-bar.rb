@@ -1,8 +1,8 @@
 class MpcBar < Formula
   desc "Menu bar client for the Music Player Daemon"
   homepage "https://github.com/spnw/mpc-bar"
-  url "https://github.com/spnw/mpc-bar/archive/refs/tags/v0.3.tar.gz"
-  sha256 "96935dcbabab83877fb7e442d52f55d25972b69db4a707d68542007b32f1930e"
+  url "https://github.com/spnw/mpc-bar/archive/refs/tags/v0.4.tar.gz"
+  sha256 "4cfd370050ba82a79dc137488d29db1b4c7dc9eed76bf238ac9bd41cc9b79ea0"
   license "GPL-2.0-or-later"
   head "https://github.com/spnw/mpc-bar.git", branch: "main"
 
